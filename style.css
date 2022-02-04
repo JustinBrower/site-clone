@@ -1,0 +1,34 @@
+.bg-green{
+    background-color: forestgreen;
+}
+
+.bg-steel{
+    background-color: steelblue;
+}
+
+.bg-grey{
+    background-color: grey;
+}
+
+.gnome-form{
+    border: 3px solid rgb(235, 149, 37);
+    height: 50vh;
+    width: 50vh;
+}
+
+.bg-image{
+    background-image: url(https://media.istockphoto.com/illustrations/forest-treasure-illustration-id613676514?k=20&m=613676514&s=612x612&w=0&h=yOf1b3ODWbitjlG2JeDlueP7qSP5gtlBpK1NvRmwKEo=);
+    background-size: cover;
+    background-position: center;
+    min-height: 75vh;
+}
+
+.p-image{
+    width: 100%;
+}
+
+.center-me{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
