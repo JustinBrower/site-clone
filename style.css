@@ -10,10 +10,28 @@
     background-color: grey;
 }
 
+.bg-orange{
+    border: 1px solid rgb(235, 149, 37);
+    background-color: rgb(235, 149, 37);
+    opacity: 85%;
+}
+
+.big-font{
+    font-size: 28pt;
+}
+
+.bigger-font{
+    font-size: 32pt;
+}
+
 .gnome-form{
     border: 3px solid rgb(235, 149, 37);
     height: 50vh;
     width: 50vh;
+}
+
+.service-font{
+    font-size: 2rem;
 }
 
 .bg-image{
@@ -23,12 +41,11 @@
     min-height: 75vh;
 }
 
-.p-image{
-    width: 100%;
+.margin-time{
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
-.center-me{
-    justify-content: center;
-    align-items: center;
-    align-self: center;
+.font-small{
+    font-size: xx-small;
 }
