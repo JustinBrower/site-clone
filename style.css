@@ -84,7 +84,17 @@
 }
 
 @media screen and (max-width: 600px) {
-    .spill{
+    .getoutofhere{
         display: none;
     }
+}
+
+@media screen and (max-width: 600px) {
+    .review-order{
+        order: 1;
+    }
+}
+
+.cursive{
+    font-family: 'Quintessential', cursive;
 }

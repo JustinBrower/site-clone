@@ -10,6 +10,9 @@
         integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
     <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
     <style>
         body.debug .container,
         body.debug .container-fluid {
@@ -74,7 +77,7 @@
             </div>
         </div>
         <div class="row bg-steel text-light">
-            <div class="col-5">
+            <div class="col-md-5 col-sm-12">
                 <h4 class="pt-5">Lab Grown!</h4>
                 Our patent-pending gnome products will blow you away! Scientists use a combination of biology,
                 chemistry, mathematics, and our SECRET gnome formula to create the products you see here!
@@ -95,7 +98,7 @@
                     financial compensation.</p>
             </div>
             <div class="col-7 service-font border-start border-5 border-success">
-                <div class="row spill">
+                <div class="row spill getoutofhere">
                     <div class="col-7 bg-danger">
                         <p class="mdi mdi-party-popper mdi-48px">Great For Parties!</p>
                         <p class="mdi mdi-sword-cross mdi-48px">Spice Up Your D&D Campaign!</p>
@@ -107,13 +110,15 @@
             </div>
         </div>
         <div class="row justify-content-center margin-bottom bg-success">
-            <div class="col-3 p-0">
+            <div class="col-md-3 col-sm-12 p-0">
                 <img class="img-fluid" src="https://thiscatdoesnotexist.com" alt="definitely a gnome">
             </div>
-            <div class="col-9 d-flex align-items-center justify-content-center">
+            <div class="col-md-9 d-flex align-items-center justify-content-center">
                 <div class="w-75">
 
-                    <h2 class="mdi mdi-check-underline mdi-48px text-center pt-5">Perfectly
+
+                    <!-- "cursive" is the imported font "Quintessential" that I made into a class in CSS. -->
+                    <h2 class="mdi mdi-check-underline mdi-48px text-center pt-5 cursive">Perfectly
                         Ethical and
                         Unregulated!
                     </h2>
@@ -127,16 +132,18 @@
             </div>
         </div>
         <div class="row justify-content-center align-items-center text-center big-font p-4 text-light">
-            <div class="col-3 bg-danger review-height">"Pretty good gnomes not gonna lie"</div>
-            <div class="col-1"></div>
-            <div class="col-3 bg-danger shadow">
+            <div class="col-md-3 col-sm-12 bg-danger review-height mt-5 mb-5 review-order">"Pretty good gnomes not gonna
+                lie"
+            </div>
+            <div class="col-md-1 col-sm-12"></div>
+            <div class="col-md-3 col-sm-12 bg-danger shadow mt-5 mb-5">
                 <p class="mdi mdi-star mdi-48px"></p>
                 "My wife wanted to have a kid, but this works even better! Still have to
                 change its
                 diaper sometimes though..."
             </div>
-            <div class="col-1"></div>
-            <div class="col-3 bg-danger review-height">"I've
+            <div class="col-md-1 col-sm-12"></div>
+            <div class="col-md-3 col-sm-12 bg-danger review-height mt-5">"I've
                 gotten three already!
                 Definitely worth the
                 money if you
