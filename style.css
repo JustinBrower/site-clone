@@ -95,6 +95,19 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .review-order-2{
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .resize{
+        width: 300vh;
+        height: 100vh;
+    }
+}
+
 .cursive{
     font-family: 'Quintessential', cursive;
 }
