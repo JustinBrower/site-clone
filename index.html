@@ -30,7 +30,7 @@
 </head>
 
 <body class=" container-fluid">
-    <main>
+    <header class="sticky">
         <div class="row bg-green">
             <div class="col-6 d-flex align-items-center">
                 <h3 class="mdi mdi-test-tube text-light">Real Gnomes</h3>
@@ -39,6 +39,8 @@
                 <h3 class="mdi mdi-magnify mdi-48px text-end align-items-center text-light"></h3>
             </div>
         </div>
+    </header>
+    <main>
         <div class="row bg-image align-items-center ps-5">
             <div class="col-5 bg-white gnome-form h-75 me-5">
                 <div class="mb-3">
@@ -53,7 +55,8 @@
                         placeholder="Please describe your perfect gnome" rows="5"></textarea>
                 </div>
             </div>
-            <div class="col-7 text-center justify-content-center bg-orange column-height big-font text-light">
+            <div
+                class="col-7 text-center justify-content-center bg-orange column-height big-font text-light orange-box">
                 <h2 class="bigger-font"><strong>Fantasy Becomes
                         Reality</strong>
                 </h2>
@@ -71,7 +74,7 @@
             </div>
         </div>
         <div class="row bg-steel text-light">
-            <div class="col-5">
+            <div class="col-5-md-12">
                 <h4 class="pt-5">Lab Grown!</h4>
                 Our patent-pending gnome products will blow you away! Scientists use a combination of biology,
                 chemistry, mathematics, and our SECRET gnome formula to create the products you see here!
@@ -92,14 +95,19 @@
                     financial compensation.</p>
             </div>
             <div class="col-7 service-font border-start border-5 border-success">
-                <p class="mdi mdi-party-popper mdi-48px">Great For Parties!</p>
-                <p class="mdi mdi-sword-cross mdi-48px">Spice Up Your D&D Campaign!</p>
-                <p class="mdi mdi-currency-usd-off mdi-48px">Cheap Labor!</p>
-                <p class="mdi mdi-grass mdi-48px">Cage-Free and Grass-Fed!</p>
+                <div class="row spill">
+                    <div class="col-7 bg-danger">
+                        <p class="mdi mdi-party-popper mdi-48px">Great For Parties!</p>
+                        <p class="mdi mdi-sword-cross mdi-48px">Spice Up Your D&D Campaign!</p>
+                        <p class="mdi mdi-currency-usd-off mdi-48px">Cheap Labor!</p>
+                        <p class="mdi mdi-grass mdi-48px">Cage-Free and Grass-Fed!</p>
+                        <p class="mdi mdi-grass mdi-48px">Please God spill over</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-3 p-0">
+        <div class="row justify-content-center margin-bottom bg-success">
+            <div class="col-3-md-12 p-0">
                 <img class="img-fluid" src="https://thiscatdoesnotexist.com" alt="definitely a gnome">
             </div>
             <div class="col-9 d-flex align-items-center justify-content-center">
@@ -118,15 +126,28 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-3"></div>
-            <div class="col-3"></div>
-            <div class="col-3"></div>
+        <div class="row justify-content-center align-items-center text-center big-font p-4 text-light">
+            <div class="col-3 bg-danger review-height">"Pretty good gnomes not gonna lie"</div>
+            <div class="col-1"></div>
+            <div class="col-3 bg-danger shadow">
+                <p class="mdi mdi-star mdi-48px"></p>
+                "My wife wanted to have a kid, but this works even better! Still have to
+                change its
+                diaper sometimes though..."
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3 bg-danger review-height">"I've
+                gotten three already!
+                Definitely worth the
+                money if you
+                don't
+                live
+                near cops."</div>
         </div>
-        <footer>
-
-        </footer>
     </main>
+    <footer>
+        <div class="row bg-green p-5 mt-5"></div>
+    </footer>
 </body>
 
 </html>
